@@ -1,0 +1,29 @@
+[package]
+name = "trindle-help"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "GPL-3.0-or-later"
+description = "Help for Trindle: searchable pages, opened offline at the page a message points to"
+repository = "https://github.com/trindle-os/trindle-help"
+
+[dependencies]
+trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "3b1e06bc4d4ccb94b9d7b876feecc37aa4765e74" }
+libc = "0.2"
+resvg = { version = "0.49", default-features = false, features = ["text", "system-fonts"] }
+image = { version = "0.25", default-features = false, features = ["png"] }
+
+[build-dependencies]
+trindle-common = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "3b1e06bc4d4ccb94b9d7b876feecc37aa4765e74" }
+
+[dev-dependencies]
+trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "3b1e06bc4d4ccb94b9d7b876feecc37aa4765e74", features = ["testing"] }
+tiny-skia = { version = "0.12", default-features = false, features = ["std", "simd"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+strip = "debuginfo"
+panic = "abort"
+overflow-checks = true

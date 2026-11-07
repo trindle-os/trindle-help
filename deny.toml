@@ -1,0 +1,46 @@
+# What `cargo deny check` holds the dependencies to: licences that sit with
+# GPL-3.0-or-later, crates.io as the only registry, the toolkit's own git
+# repository as the only git source, and no known vulnerability.
+
+[graph]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[advisories]
+unmaintained = "workspace"
+# `cargo audit` also names three crates their authors no longer look after:
+# zbus_names (RUSTSEC-2026-0371), zvariant (RUSTSEC-2026-0370) and zvariant_derive
+# (RUSTSEC-2026-0372). They come only through accesskit_unix 0.23 (screen-reader
+# support over D-Bus) in the toolkit, not from Help itself. Each is only a warning
+# that nobody is maintaining it: no vulnerability is reported, and Help passes them
+# nothing from outside. Only the toolkit can replace them.
+ignore = [
+    # quick-xml 0.38 comes only through accesskit_unix 0.23, atspi-common and
+    # zbus-lockstep, which read the AT-SPI interface files shipped inside atspi
+    # itself, never XML from outside. Goes with accesskit_unix 0.24 in the toolkit.
+    { id = "RUSTSEC-2026-0194", reason = "quick-xml 0.38 reads only atspi's own interface files" },
+    { id = "RUSTSEC-2026-0195", reason = "quick-xml 0.38 reads only atspi's own interface files" },
+]
+
+[licenses]
+allow = [
+    "GPL-3.0-or-later",
+    "MIT",
+    "Apache-2.0",
+    "Apache-2.0 WITH LLVM-exception",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "Zlib",
+    "Unicode-3.0",
+    "MPL-2.0",
+]
+confidence-threshold = 0.9
+
+[bans]
+multiple-versions = "allow"
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+# Not met while a local [patch] stands in for it (.cargo/config.toml).
+allow-git = ["https://github.com/trindle-os/trindle-toolkit"]

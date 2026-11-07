@@ -1,0 +1,8 @@
+target/
+.cargo/config.toml
+site/dist/
+__pycache__/
+deb-out/
+*HANDOVER*.md
+*-notes.md
+.publish/

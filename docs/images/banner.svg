@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="t d">
+  <title id="t">Trindle Help</title>
+  <desc id="d">A ring with a question mark, the name Trindle Help, and the words searchable pages that open offline.</desc>
+  <rect width="1280" height="360" fill="#16181d"/>
+  <circle cx="220" cy="180" r="88" fill="none" stroke="#fbc711" stroke-width="14"/>
+  <text x="220" y="212" text-anchor="middle" font-family="sans-serif" font-size="96" font-weight="700" fill="#f2f3f5">?</text>
+  <text x="380" y="168" font-family="sans-serif" font-size="72" font-weight="700" fill="#f2f3f5">Trindle Help</text>
+  <text x="382" y="222" font-family="sans-serif" font-size="30" fill="#c4c8d0">Searchable pages that open offline, at the page a message points to.</text>
+  <g font-family="sans-serif" font-size="22" fill="#f2f3f5">
+    <rect x="382" y="256" width="132" height="40" rx="8" fill="#2a2e36"/><text x="448" y="283" text-anchor="middle">offline</text>
+    <rect x="530" y="256" width="236" height="40" rx="8" fill="#2a2e36"/><text x="648" y="283" text-anchor="middle">one set of pages</text>
+    <rect x="782" y="256" width="236" height="40" rx="8" fill="#2a2e36"/><text x="900" y="283" text-anchor="middle">GPL-3.0-or-later</text>
+  </g>
+</svg>

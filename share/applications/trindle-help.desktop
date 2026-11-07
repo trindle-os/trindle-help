@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Help
+Comment=Look up how anything in Trindle works, and what a message means
+Exec=trindle-help %U
+Icon=help-browser
+Terminal=false
+Type=Application
+Categories=System;Documentation;
+Keywords=help;guide;manual;how;why;question;answer;support;
+StartupNotify=false
+StartupWMClass=org.trindle.Help
