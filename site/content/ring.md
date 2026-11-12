@@ -1,66 +1,66 @@
 ---
 title: The ring
-summary: Trindle has no bar and no menu along the edges. Everything lives in one circle, the ring.
+summary: Trindle has no bar or menu along the edges. Everything is in one circle, called the ring.
 group: Using Trindle
 order: 10
 ---
 
-With the ring closed, your screen is completely clear. There is no panel, no tray and no clock. You see only your windows and your wallpaper.
+When the ring is closed, your screen is completely clear. There is no panel, no tray and no clock. You see only your windows and your wallpaper.
 
-When you want something, you call the ring. It goes away when you are done.
+When you want something, open the ring. It goes away when you have finished.
 
-![The ring open on an empty dark screen. A clock sits in the middle with rows of small round buttons above and below it, and one app on the outer circle.](img/ring.png "What you will see: the ring, open. The time and date sit in the middle.")
+![The ring open on an empty dark screen. A clock is in the middle, with rows of small round buttons above and below it, and one app is on the outer circle.](img/ring.png "What you will see: the ring, open. The time and date are in the middle.")
 
 ## Opening the ring
 
-There are four ways in.
+There are four ways to open it.
 
-- **Double-click at the very edge of the screen.** Move the pointer to any outer edge and click the left button twice. One click there opens nothing. The edge is a few pixels deep. It is the same as the gap left round a maximised window, so you can still reach it when a window fills the screen.
+- **Double-click at the very edge of the screen.** Move the pointer to any outer edge and click the left button twice. A single click there does nothing. The edge is a few pixels deep. That is the same as the gap left around a maximised window, so you can still reach it when a window fills the screen.
 - **Press the Super key.** It is often marked with a Windows logo.
 - **Double-click, or double-tap, on the empty desktop.**
-- **Log in.** The ring is already open in the middle of the screen after every login.
+- **Log in.** The ring is already open in the middle of the screen every time you log in.
 
-A single click anywhere on the empty desktop opens nothing, so you cannot open it by accident. Over a full-screen window, a click never opens the ring. A full-screen game or film is yours alone. Press Super there instead.
+A single click anywhere on the empty desktop does nothing, so you can't open the ring by accident. Clicking over a full-screen window never opens it either. A full-screen game or film stays undisturbed. Press Super instead.
 
 ## What is in the ring
 
 The ring is built from the middle outwards.
 
-![A drawn picture of the ring with four numbered parts: the middle, the favourites, the open windows and the tray.](img/ring-layout.svg "What you will see: a diagram of the ring with its four parts numbered. It is drawn to explain, not a screenshot.")
+![A drawing of the ring with four numbered parts: the middle, the favourites, the open windows and the tray.](img/ring-layout.svg "What you will see: a diagram of the ring with its four parts numbered. It's a drawing, not a screenshot.")
 
-- **The middle** holds the time and date and the battery. It also holds small round buttons for things you reach for often: sound, screen, keeping the screen awake and power. Tools such as Screenshot, the clipboard history, the colour picker and Report a problem are there too. Point at a button to see its name.
-- **The favourites** are the apps you chose to keep close. Right-click an app in the ring to add it.
-- **The open windows** are how you switch between apps. Open the ring, then click the window you want. Each window takes an equal share and shows its icon and name. The window in front has a quiet grey dot. Point at one and a live picture of that window appears in the middle.
-- **The tray** is for programs that put an icon there. It sits in a reserved arc at the bottom.
+- **The middle** shows the time, the date and the battery. It also has small round buttons for things you use often: sound, screen, keeping the screen awake and power. Tools such as Screenshot, the clipboard history, the colour picker and Report a problem are there too. Point at a button to see its name.
+- **The favourites** are the apps you chose to have close to hand. To add one, right-click an app in the ring.
+- **The open windows** are how you switch between apps. Open the ring, then click the window you want. Each window gets an equal share of the ring and shows its icon and name. The window in front has a faint grey dot. When you point at a window, a live picture of it appears in the middle.
+- **The tray** is for programs that show an icon. It has its own arc at the bottom.
 
-You can show icons alone if you prefer. In Settings, under Ring, turn on Show the names in the windows ring. With nine or more windows open, only icons show. The name appears when you point.
+In Settings, under Ring, the switch Show the title when pointing decides whether a window's title appears under its picture when you point at it.
 
 ## Finding an app
 
 1. Click the all apps button at the bottom of the ring. Or just start typing any letter.
-2. Everything installed is filtered as you type.
-3. The matches show as one ring, in the place where the favourites were.
+2. Trindle narrows down everything installed as you type.
+3. The matches appear as one ring, where the favourites were.
 
 ## Uninstalling from the ring
 
-Right-click any app in the ring and choose Uninstall. Trindle's own parts, and what the computer needs to run, cannot be removed. The menu says why.
+Right-click any app in the ring and choose Uninstall. You can't remove Trindle's own parts, or anything the computer needs to run. The menu tells you why.
 
 ## Notifications
 
-![The Notifications page of the ring: a round page with a list of made-up notifications, each with round buttons beside it, and a close button at the foot.](img/ring-notes.png "What you will see: the Notifications page of the ring, with made-up notifications.")
+![The Notifications page of the ring: a round page with a list of made-up notifications, each with round buttons beside it, and a close button at the bottom.](img/ring-notes.png "What you will see: the Notifications page of the ring, with made-up notifications.")
 
-Notifications are circles in a corner you choose. Close, Snooze and Clear all sit along the bottom. Snooze can be 10 minutes, 1 hour, 6 hours or until 8 the next morning. Drag a circle anywhere to keep it as a reminder. Clear all leaves it alone.
+Notifications appear as circles in a corner you choose. The buttons Close, Snooze and Clear all are along the bottom. You can snooze for 10 minutes, 1 hour, 6 hours or until 8 the next morning. Drag a circle anywhere to keep it as a reminder. Clear all doesn't touch it.
 
-The ring also keeps a list of notifications, and a list of the things you copied, called the clipboard history.
+The ring also has a list of notifications, and a list of the things you copied, called the clipboard history.
 
 ## If the ring stops working
 
-A label with a small alert sign appears in the middle of the screen, where the ring would be. It says: "The ring stopped working. Press Super to start it again."
+A label with a small alert sign appears in the middle of the screen, where the ring would be. It reads: "The ring stopped working. Press Super to start it again."
 
 - [Read about troubleshooting](troubleshooting.html)
 
 ## Settings for the ring
 
-Settings, then Ring, holds how the ring opens and how notifications arrive. It also sets how long notifications stay and where they appear. It holds how long the clipboard history is kept and where things open.
+In Settings, under Ring, you can choose how the ring opens and how notifications arrive. You can also choose how long notifications stay, where they appear, how long the clipboard history is kept and where things open.
 
 - [Read about Settings](settings.html)

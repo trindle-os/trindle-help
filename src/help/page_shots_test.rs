@@ -16,14 +16,18 @@ const ERRORS: [(&str, &str); 8] = [
     ("unlisted", "example-tool: the update stopped with code 42"),
 ];
 
+/// Drawn in the built-in English only, so an installed copy of Help's words or another language never changes the pictures.
 fn errors_picture(error: &str) -> tiny_skia::Pixmap {
-    let help = Helper::new(pages::all(), "", error);
-    let mut ui = Ui::new(help.view(), Theme::new(false, "#fbc711"));
-    let w = SIZE.0;
-    let h = (ui.natural_height(w as f32).ceil() as u32).clamp(SIZE.1, 1500);
-    let mut pix = tiny_skia::Pixmap::new(w, h).unwrap();
-    ui.paint(&mut pix.as_mut(), 1.0);
-    pix
+    use crate::toolkit::lang::{english, with_catalogue, Bundle, Catalogue};
+    with_catalogue(Catalogue::new(Bundle::from_files("en", &[]), english()), || {
+        let help = Helper::new(pages::all(), "", error);
+        let mut ui = Ui::new(help.view(), Theme::new(false, "#fbc711"));
+        let w = SIZE.0;
+        let h = (ui.natural_height(w as f32).ceil() as u32).clamp(SIZE.1, 1500);
+        let mut pix = tiny_skia::Pixmap::new(w, h).unwrap();
+        ui.paint(&mut pix.as_mut(), 1.0);
+        pix
+    })
 }
 
 /// The pictures on the errors page are of this very window, so they are made from it and kept the same as it draws.

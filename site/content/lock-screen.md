@@ -7,19 +7,19 @@ order: 50
 
 When the screen locks, the lock screen asks for your password, or a PIN if you chose one. It shows only the time, the date and the password box.
 
-The lock screen cannot be photographed without a real screen, and a made-up picture would not be honest. So this page uses a drawn diagram. It is labelled as a diagram. It is not a screenshot.
+We can't take a real screenshot of the lock screen here, and a made-up picture wouldn't be honest. So this page uses a drawn diagram, and it is labelled as one. It is not a screenshot.
 
-![A drawn diagram: the screen locks, shows the time, date and a password box, then opens when you type your password or PIN, or tap yes on your phone.](img/lock-flow.svg "What you will see: a diagram of how the lock screen lets you back in. It is drawn to explain, not a screenshot.")
+![A drawn diagram: the screen locks and shows the time, the date and a password box. It opens when you type your password or PIN, or tap yes on your phone.](img/lock-flow.svg "What you will see: a diagram of how you get back in from the lock screen. It is a drawing, not a screenshot.")
 
 ## Switching it on
 
-Locking is off to begin with.
+Locking is off until you switch it on.
 
 1. Open Settings and choose Power.
 2. In the Locking card, switch on Lock the screen.
-3. Choose how long it waits before it locks, with Lock after.
+3. Use Lock after to choose how long Trindle waits before it locks the screen.
 
-Once locking is on, your password gets you back in. A four-digit PIN does too, if you choose one as well.
+Once locking is on, your password gets you back in. So does a four-digit PIN, if you choose one as well.
 
 ![The Power page in Settings with a battery picture, the power mode, screen dimming times and a Locking card.](img/settings-power.png "What you will see: the Power page of Settings. The Locking card is where you switch locking on.")
 
@@ -29,26 +29,26 @@ Type your password or PIN.
 
 Each box has a small eye. Press it to show what you typed. You can also press Tab to reach it, then Space or Enter.
 
-The password hides again after you try it. It also hides when no key has been pressed for 30 seconds. So it is never left showing on a screen someone has walked away from.
+The password hides again after you try it. It also hides if you haven't pressed a key for 30 seconds, so it never stays on show if you walk away.
 
 ## What stays hidden
 
-While the screen is locked, no notification shows. Not even its words or the name of the app. They wait in the ring's notifications for after you unlock.
+While the screen is locked, no notifications show, not even their words or the name of the app. They wait in the ring's notifications until you unlock.
 
 ## Pocketkey
 
 Pocketkey is a built-in extra for your phone. Switch it on in Apps. The lock screen then shows a phone button.
 
-A paired phone in your pocket turns password prompts into one yes or no tap. The screen locks when the phone goes out of range. The password always still works.
+With a paired phone in your pocket, you answer password prompts with one tap, yes or no. The screen locks when the phone goes out of range. Your password still works at any time.
 
 - [Read about Apps](apps.html)
 
 ## Locking from Flow
 
-If you use Flow, a lock hands the mouse and keyboard back to the computer they belong to at once.
+If you use Flow, locking the screen gives the mouse and keyboard straight back to the computer they belong to.
 
 - [Read about Flow](flow.html)
 
 ## The screensaver
 
-Power also has a setting called Show the moving clock after. It shows the time alone, moving slowly about the screen. You choose the time, once for battery and once for when the computer is plugged in.
+Power also has a setting called Show the moving clock after. The clock shows only the time, and it moves slowly around the screen. You choose how long to wait, once for battery and once for when the computer is plugged in.
