@@ -33,14 +33,18 @@ If you allow it, Trindle opens exactly those ports, and only for the computers o
 
 To carry a file you copied over to the other computer, Flow asks to read the files you copy. It can then ask Trindle for only the files on the clipboard. It can't see the folders they are in, or your hidden files. It can ask once every two seconds, and only for two minutes after you copy.
 
-## You can always take it back
+## You can always get your mouse and keyboard back
 
-![A diagram of what Flow may do once you allow it, what it can't do, and three ways to take the permission back.](img/flow-allow.svg "What you will see: a diagram of what Flow may and may not do. Flow isn't built yet, so this is a drawing, not a screenshot.")
+![A diagram of what Flow may do once you allow it, what it can't do, and two ways to get your mouse and keyboard back.](img/flow-allow.svg "What you will see: a diagram of what Flow may and may not do. This is a drawing, not a screenshot.")
 
-- While Flow is controlling your mouse and keyboard, Trindle shows its violet in-use dot at the top middle of every screen. Point at the dot to see that it's Flow. See [The in-use dots](in-use-dots.html).
 - When the screen locks, the mouse and keyboard always come back to this computer.
 - Hold Ctrl, Alt and Shift together for a second, and the mouse and keyboard come back to this computer, whatever is happening.
-- Flow can only take over the mouse and keyboard within a few seconds of you pressing its own shortcut or choosing one of its own menu items.
+
+While Flow is controlling your mouse and keyboard, Trindle shows its violet in-use dot at the top middle of every screen. Point at the dot to see that it's Flow. See [The in-use dots](in-use-dots.html).
+
+To take the permission away for good, open Settings, then Permissions. In the Plugins card, switch off what you allowed for Flow.
+
+Flow can only take over the mouse and keyboard within a few seconds of you pressing its own shortcut or choosing one of its own menu items.
 
 ## Related
 
