@@ -1,25 +1,19 @@
 ---
 title: Flow
-summary: One mouse and keyboard for two Trindle computers. Flow is a plugin and is still being built.
+summary: One mouse and keyboard for two Trindle computers. Flow is a plugin.
 group: Using Trindle
 order: 80
 ---
 
-> Flow is still being built. This page describes what it is meant to do. The list of what makes Trindle different will tell you when it is finished.
-
-- [Read about what makes Trindle different](features.html)
-
 With Flow on two Trindle computers, one mouse and keyboard work on both. Move the pointer off the side of the screen where the other computer sits, and it carries on there. The keyboard and the clipboard go with it. Move the pointer back to return to the first computer.
 
-There is nothing to take a screenshot of yet, so this page uses a diagram of the plan. The diagram is clearly labelled as a plan.
-
-![A diagram of two computers side by side. The pointer leaves the right edge of the first screen and appears on the second.](img/flow-two.svg "What you will see: a diagram of the plan for Flow. Flow isn't built yet, so this is a drawing, not a screenshot.")
+![A diagram of two computers side by side. The pointer leaves the right edge of the first screen and appears on the second.](img/flow-two.svg "What you will see: a diagram of how Flow works. This is a drawing, not a screenshot.")
 
 ## Setting it up
 
 1. Open Apps and go to the Plugins page. Install Flow on both computers.
-2. Pair the two computers once, using a short code.
-3. In Flow's settings, choose which computer shares its mouse and keyboard. It can be either one.
+2. Pair the two computers once. The computer being controlled shows a four-digit number. Type it on the controlling computer.
+3. On the computer whose mouse and keyboard you want to use, switch on **This computer controls the other one** in Flow's settings. It can be either computer.
 
 Nothing is installed until you press Install. Flow has a folder of its own, and it can't do anything until you allow it.
 
@@ -43,8 +37,6 @@ To carry a file you copied over to the other computer, Flow asks to read the fil
 While Flow is controlling your mouse and keyboard, Trindle shows its violet in-use dot at the top middle of every screen. Point at the dot to see that it's Flow. See [The in-use dots](in-use-dots.html).
 
 To take the permission away for good, open Settings, then Permissions. In the Plugins card, switch off what you allowed for Flow.
-
-Flow can only take over the mouse and keyboard within a few seconds of you pressing its own shortcut or choosing one of its own menu items.
 
 ## Related
 
