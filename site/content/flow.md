@@ -12,8 +12,8 @@ With Flow on two Trindle computers, one mouse and keyboard work on both. Move th
 ## Setting it up
 
 1. Open Apps and go to the Plugins page. Install Flow on both computers.
-2. Pair the two computers once. The computer being controlled shows a four-digit number. Type it on the controlling computer.
-3. On the computer whose mouse and keyboard you want to use, switch on **This computer controls the other one** in Flow's settings. It can be either computer.
+2. On the computer whose mouse and keyboard you want to use, switch on **This computer controls the other one** in Flow's settings. It can be either computer.
+3. Pair the two computers once. The other computer shows a four-digit number. Type it on the computer that controls.
 
 Nothing is installed until you press Install. Flow has a folder of its own, and it can't do anything until you allow it.
 
