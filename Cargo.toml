@@ -8,16 +8,16 @@ description = "Help for Trindle: searchable pages, opened offline at the page a 
 repository = "https://github.com/trindle-os/trindle-help"
 
 [dependencies]
-trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "4f188cdef76a3c3072148d2e58d30c26de9dd7dd" }
+trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "6cda075f3ce5b00c17343707e06189302281ce06" }
 libc = "0.2"
 resvg = { version = "0.49", default-features = false, features = ["text", "system-fonts"] }
 image = { version = "0.25", default-features = false, features = ["png"] }
 
 [build-dependencies]
-trindle-common = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "4f188cdef76a3c3072148d2e58d30c26de9dd7dd" }
+trindle-common = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "6cda075f3ce5b00c17343707e06189302281ce06" }
 
 [dev-dependencies]
-trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "4f188cdef76a3c3072148d2e58d30c26de9dd7dd", features = ["testing"] }
+trindle-toolkit = { git = "https://github.com/trindle-os/trindle-toolkit", rev = "6cda075f3ce5b00c17343707e06189302281ce06", features = ["testing"] }
 tiny-skia = { version = "0.12", default-features = false, features = ["std", "simd"] }
 
 [profile.release]

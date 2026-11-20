@@ -1425,7 +1425,7 @@ dependencies = [
 [[package]]
 name = "trindle-common"
 version = "0.9.1-beta.4"
-source = "git+https://github.com/trindle-os/trindle-toolkit?rev=4f188cdef76a3c3072148d2e58d30c26de9dd7dd#4f188cdef76a3c3072148d2e58d30c26de9dd7dd"
+source = "git+https://github.com/trindle-os/trindle-toolkit?rev=6cda075f3ce5b00c17343707e06189302281ce06#6cda075f3ce5b00c17343707e06189302281ce06"
 dependencies = [
  "libc",
 ]
@@ -1445,7 +1445,7 @@ dependencies = [
 [[package]]
 name = "trindle-toolkit"
 version = "0.9.1-beta.4"
-source = "git+https://github.com/trindle-os/trindle-toolkit?rev=4f188cdef76a3c3072148d2e58d30c26de9dd7dd#4f188cdef76a3c3072148d2e58d30c26de9dd7dd"
+source = "git+https://github.com/trindle-os/trindle-toolkit?rev=6cda075f3ce5b00c17343707e06189302281ce06#6cda075f3ce5b00c17343707e06189302281ce06"
 dependencies = [
  "ab_glyph_rasterizer",
  "accesskit",
