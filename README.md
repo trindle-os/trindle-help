@@ -1,7 +1,7 @@
 <p align="center"><img src="docs/images/banner.svg" alt="Trindle Help: searchable pages that open offline, at the page a message points to." width="100%"></p>
 
 <p align="center">
-  <img alt="version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-24292f?style=flat-square&labelColor=24292f&color=fbc711">
+  <img alt="version 0.9.1-beta.4" src="https://img.shields.io/badge/version-0.9.1--beta.4-24292f?style=flat-square&labelColor=24292f&color=fbc711">
   <img alt="licence GPL-3.0-or-later" src="https://img.shields.io/badge/licence-GPL--3.0--or--later-24292f?style=flat-square&labelColor=24292f&color=4c9be8">
   <img alt="package: Debian" src="https://img.shields.io/badge/package-Debian%2013-24292f?style=flat-square&labelColor=24292f&color=c0392b">
   <img alt="network: none" src="https://img.shields.io/badge/network-none-24292f?style=flat-square&labelColor=24292f&color=8e6fd8">

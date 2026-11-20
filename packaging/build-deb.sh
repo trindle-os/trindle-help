@@ -5,7 +5,7 @@ set -euo pipefail
 here="$(cd "$(dirname "$0")" && pwd)"
 root="$(dirname "$here")"
 out="${1:-deb-out}"
-version="$(sed -n 's/^version = "\(.*\)"/\1/p' "$root/Cargo.toml" | head -1)"
+version="$(sed -n 's/^version = "\(.*\)"/\1/p' "$root/Cargo.toml" | head -1 | sed "s/-/~/")"
 arch="$(dpkg --print-architecture)"
 stage="$out/trindle-help_${version}_${arch}"
 # The first version of the main package that no longer holds Help's files; older ones are replaced.
